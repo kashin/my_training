@@ -6,5 +6,7 @@
     <string name="hello_world">Hello world! PI will be outputed in a TextField below.</string>
     <string name="press_to_count">Press to count</string>
     <string name="NLabel">Enter N below</string>
+    <string name="output_field_text">Pi digits will be written in this field</string>
+    <string name="enter_n_field">Enter number of digits in this field.</string>
 
 </resources>
