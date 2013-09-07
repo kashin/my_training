@@ -24,3 +24,7 @@ FindPI/project.properties
 FindPI/proguard*
 FindPI/.settings/*
 FindPI/libs/
+Numbers/*/project.properties
+Numbers/*/proguard*
+Numbers/*/.settings/*
+Numbers/*/libs/
