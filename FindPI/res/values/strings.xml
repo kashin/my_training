@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FindPI</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world! PI will be outputed in a TextField below.</string>
+    <string name="press_to_count">Press to count</string>
+    <string name="NLabel">Enter N below</string>
+
+</resources>

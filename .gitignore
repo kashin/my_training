@@ -18,3 +18,9 @@ local.properties
 # Eclipse project files
 .classpath
 .project
+
+# projects specific files
+FindPI/project.properties
+FindPI/proguard*
+FindPI/.settings/*
+FindPI/libs/
