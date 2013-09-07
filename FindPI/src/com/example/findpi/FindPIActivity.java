@@ -2,15 +2,11 @@ package com.example.findpi;
 
 import android.app.Activity;
 import android.os.Bundle;
-import android.text.Editable;
-import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 
 public class FindPIActivity extends Activity {
-
-	private static final String TAG = "FindPI";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
