@@ -146,7 +146,7 @@ public class NumbersCalculator extends Activity {
 					numbers.removeElementAt(0);
 					result += Integer.parseInt(numbers.firstElement());
 					numbers.removeElementAt(0);
-					numbers.add(String.valueOf(result));
+					numbers.insertElementAt(String.valueOf(result), 0);
 					break;
 				case '-':
 					operations.removeElementAt(0);
@@ -154,7 +154,7 @@ public class NumbersCalculator extends Activity {
 					numbers.removeElementAt(0);
 					result -= Integer.parseInt(numbers.firstElement());
 					numbers.removeElementAt(0);
-					numbers.add(String.valueOf(result));
+					numbers.insertElementAt(String.valueOf(result), 0);
 					break;
 				case '*':
 					operations.removeElementAt(0);
@@ -162,7 +162,7 @@ public class NumbersCalculator extends Activity {
 					numbers.removeElementAt(0);
 					result *= Integer.parseInt(numbers.firstElement());
 					numbers.removeElementAt(0);
-					numbers.add(String.valueOf(result));
+					numbers.insertElementAt(String.valueOf(result), 0);
 					break;
 				case '/':
 					operations.removeElementAt(0);
@@ -170,7 +170,7 @@ public class NumbersCalculator extends Activity {
 					numbers.removeElementAt(0);
 					result /= Integer.parseInt(numbers.firstElement());
 					numbers.removeElementAt(0);
-					numbers.add(String.valueOf(result));
+					numbers.insertElementAt(String.valueOf(result), 0);
 					break;
 				default:
 					Log.e(TAG, "ERRROR, WRONG OPERATION CHARACTER");
