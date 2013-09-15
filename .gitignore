@@ -24,6 +24,10 @@ FindPI/project.properties
 FindPI/proguard*
 FindPI/.settings/*
 FindPI/libs/
+Sudoku/project.properties
+Sudoku/proguard*
+Sudoku/.settings/*
+Sudoku/libs/
 Numbers/*/project.properties
 Numbers/*/proguard*
 Numbers/*/.settings/*
